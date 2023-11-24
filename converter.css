@@ -1,0 +1,106 @@
+/* Main container styles */
+.currency-converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.cadollar{
+    visibility: hidden;
+}
+.active{
+    visibility: visible;
+}
+
+
+.usdollar{
+    visibility: hidden;
+}
+/* Header styles */
+.header {
+    background-color: #354D7C;
+    padding: 40px;
+    color: white;
+    width: 55%;
+}
+
+
+.placeholders {
+    display: flex;
+    gap: 345px;
+    height: 40px;
+    color: grey;
+}
+
+
+
+/* Hover effect for the button */
+:hover.btn {
+    transform: scale(1.2);
+}
+
+
+
+/* Input field styles */
+.inpt {
+    width: 205px;
+    height: 63px;
+}
+
+
+
+/* Convert button styles */
+.btn {
+    font-size: 24px;
+    background-color: #354D7C;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 160px;
+    height: 80px;
+    border-radius: 10%;
+    margin-right: 95px;
+}
+
+/* Button container styles */
+.button {
+    height: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.rectangle {
+    width: 120px;
+    height: 63px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #354D7C;
+    color: white;
+    cursor: pointer;
+}
+
+/* Input field container styles */
+.entryfield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Container for input fields styles */
+.insideinpt {
+    display: flex;
+}
+
+
+
